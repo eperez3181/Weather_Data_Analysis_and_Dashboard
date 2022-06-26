@@ -13,7 +13,7 @@ HTML and CSS was used to create a website that showcases a dashboard featuring a
 Bootstrap and @media was used in order to make the website functional and responsive
 
 ## The following screenshots can be viewed in my Weather Data Analysis website by clicking on the below link: 
-* [WeatherDataAnalysis](https://)
+* [WeatherDataAnalysis](https://eperez3181.github.io/Web-Design-Challenge/)
 
 
 ## Landing Page
