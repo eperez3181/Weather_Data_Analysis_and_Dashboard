@@ -1,4 +1,4 @@
-# Web-Visualization Dashboard
+# Web Visualization Dashboard
 
 
 ##### Created by: Estela Perez
