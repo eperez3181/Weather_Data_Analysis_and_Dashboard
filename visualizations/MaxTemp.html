@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+  <title>Max Temperature</title>
+
+</head>
+<body>
+  <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" style="background-color: rgb(74, 187, 168); color:white" href="../index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <strong>Plots</strong>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="Windspeed.html">Wind Speed</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                    <strong><a class="nav-link" href="Comparisons.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-12">
+            <div class="box" style="padding-bottom: 20px;">
+                <h3 class="title">Max Temperature</h3>
+                <hr>
+                <img src="../assets/images/Fig1.png"  alt="Max Temperature Graph">
+                <p class="text-dark" style="padding-top:20px;">This observation shows that the southern hemisphere is warmer
+                    than the northern hemisphere during this time of year. </p>
+                <p class="text-dark" style="padding-bottom:20px;">Latitude has an effect on temperature in the way that, the further the
+                    locations are from the equator the less light they receive. Therefore, cities
+                    that are closer to the equator are warmer in temerature and those that are further
+                    are lower in temperature. </p>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-12">
+            <div class="box">
+                <h3 class="title">Visualizations</h3>
+                <hr>
+                <div class="container" id="center">
+                    <div class="row" style="padding-bottom: 70px;">
+                        <div class="col-6">
+                            <div class="title">Latitude vs.<br>Max Temperature</div>
+                            <a href="MaxTemp.html">
+                            <img class="panel" src="../assets/images/Fig1.png" alt="Max Temperature Graph">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <div class="title">Latitude vs.<br>Humidity</div>
+                            <a href="Humidity.html">
+                            <img class="panel" src="../assets/images/Fig2.png" alt="Humidity Graph">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 70px;">
+                        <div class="col-6">
+                            <div class="title">Latitude vs.<br>Cloudiness</div>
+                            <a href="Cloudiness.html">
+                            <img class="panel" src="../assets/images/Fig3.png" alt="Cloudiness Graph">
+                            </a>
+                            <!-- <div class="title">vs. Cloudiness</div> -->
+                        </div>
+                        <div class="col-6">
+                            <div class="title">Latitude vs.<br>Wind Speed</div>
+                            <a href="Windspeed.html">
+                                <img class="panel" src="../assets/images/Fig4.png" alt="Wind Speed Graph">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer> Web Design Challenge - Estela Perez </footer>
+
+
+    
+  
+</body>
+</html>
+
+
+    
+        
+
+    
